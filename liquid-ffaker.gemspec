@@ -1,11 +1,11 @@
 
 lib = File.expand_path("../lib", __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require "liquid/ffaker/version"
+require "liquid_ffaker/version"
 
 Gem::Specification.new do |spec|
   spec.name          = "liquid-ffaker"
-  spec.version       = Liquid::Ffaker::VERSION
+  spec.version       = LiquidFfaker::VERSION
   spec.authors       = ["Craig Day"]
   spec.email         = ["cday@zendesk.com"]
 
